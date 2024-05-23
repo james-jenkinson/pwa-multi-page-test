@@ -1,3 +1,12 @@
 {
-  "name": "PWA Multi Page Test"
+  "name": "PWA Multi Page Test",
+  "start_url": "/",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "icons/icon_225.png",
+      "sizes": "225x225",
+      "type": "image/png"
+    }
+  ]
 }
