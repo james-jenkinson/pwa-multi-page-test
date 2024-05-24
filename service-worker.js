@@ -1,7 +1,8 @@
 let fetchCount = 0
-const cacheName = 'site-static'
+const cacheName = 'site-static-v2'
 
 const assets = [
+  '/pwa-multi-page-test',
   '/pwa-multi-page-test/',
   '/pwa-multi-page-test/index.html',
   '/pwa-multi-page-test/manifest.webmanifest',
