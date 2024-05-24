@@ -2,11 +2,11 @@ let fetchCount = 0
 const cacheName = 'site-static'
 
 const assets = [
-  '/',
-  '/index.html',
-  'manifest.webmanifest',
-  '/second-page',
-  '/second-page/index.html',
+  '/pwa-multi-page-test/',
+  '/pwa-multi-page-test/index.html',
+  '/pwa-multi-page-test/manifest.webmanifest',
+  '/pwa-multi-page-test/second-page',
+  '/pwa-multi-page-test/second-page/index.html',
 ]
 
 self.addEventListener('install', (/** @type {ExtendableEvent} */ event) => {
